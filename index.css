@@ -1,0 +1,538 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    width: 1366px;
+    height: 760px;
+    background: rgba(61, 8, 123, 1);
+}
+
+ .power{
+    position: relative;
+    left: 80px;
+} 
+
+.clock{
+    position: absolute;
+    top: 34px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+    background: transparent url('clock_logo.png');
+}
+
+.box{
+    position: absolute;
+    top: 67px;
+    left: 785px;
+    width: 379px;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 0.22;
+}
+
+.box2{
+    position: absolute;
+    top: 55px;
+    left: 766px;
+    width: 416px;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 0.71;
+}
+
+.box3{
+    position: absolute;
+    top: 42px;
+    left: 706px;
+    width: 536px;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(237, 237, 237, 1);
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.digitalc{
+    position: absolute;
+    top: 94px;
+    left: 745px;
+    width: 46px;
+    height: 26px;
+    text-align: left;
+    font: normal normal 600 20px/32px Manrope;
+    color: rgba(61, 8, 123, 1);
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.hour{
+    position: absolute;
+    top: 62px;
+    left: 823px;
+    width: 80px;
+    height: 90px;
+    background: transparent url('timeline.png');
+}
+
+#HOURS{
+    position: absolute;
+    top: 67px;
+    left: 847px;
+    width: 40px;
+    height: 43px;
+    font: normal normal normal 36px/43px Barlow, regular;
+    text-align: left;
+    color: rgba(138, 17, 191);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#hourc{
+    position: absolute;
+    top: 111px;
+    left: 835px;
+    width: 56px;
+    height: 28px;
+    font: normal normal normal 23px/28px Barlow;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    color: rgba(138, 17, 191);
+    font-weight: bold;
+}
+
+#dot1{
+    position: absolute;
+    top: 90px;
+    left: 908px;
+    width: 4px;
+    height: 22px;
+    background-color: transparent;
+    color: rgba(138, 17, 191, 1);
+    font: normal normal normal 34px/28px Barlow;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.mins{position: absolute;
+    top: 62px;
+    left: 922px;
+    width: 82px;
+    height: 90px;
+    background: transparent url('timeline.png');
+}
+
+#MINUTES{
+    position: absolute;
+    top: 68px;
+    left: 942px;
+    width: 41px;
+    height: 43px;
+    font: normal normal normal 36px/43px Barlow, regular;
+    text-align: left;
+    color: rgba(138, 17, 191);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#minc{
+    position: absolute;
+    top: 110px;
+    left: 941px;
+    width: 46px;
+    height: 26px;
+    font: normal normal normal 23px/28px Barlow;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    color: rgba(138, 17, 191);
+    font-weight: bold;
+}
+
+#dot2{
+    position: absolute;
+    top: 90px;
+    left: 1007px;
+    width: 4px;
+    height: 22px;
+    background-color: transparent;
+    color: rgba(138, 17, 191, 1);
+    font: normal normal normal 34px/28px Barlow;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.secs{
+    position: absolute;
+    top: 62px;
+    left: 1019px;
+    width: 82px;
+    height: 90px;
+    background: transparent url('timeline.png');
+}
+
+#SECONDS{
+    position: absolute;
+    top: 68px;
+    left: 1043px;
+    width: 32px;
+    height: 43px;
+    font: normal normal normal 36px/43px Barlow, regular;
+    text-align: left;
+    color: rgba(138, 17, 191);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#secsc{
+    position: absolute;
+    top: 111px;
+    left: 1036px;
+    width: 44px;
+    height: 26px;
+    font: normal normal normal 23px/28px Barlow;
+    background-color: transparent;
+    font-family: 'Lato', sans-serif;
+    color: rgba(138, 17, 191);
+    font-weight: bold;
+}
+
+#AMPM{
+    position: absolute;
+    top: 62px;
+    left: 1121px;
+    width: 82px;
+    height: 90px;
+    background: transparent url('AMPM_svg.png');
+}
+
+#SESSIONS{
+    position: absolute;
+    top: 86px;
+    left: 1138px;
+    width: 47px;
+    height: 43px;
+    background-color: transparent;
+    font: normal normal normal 36px/43px Barlow;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Lato', sans-serif;
+}
+.mbox{
+    position: absolute;
+    top: 212px;
+    left: 706px;
+    width: 536px;
+    height: 118px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(237, 237, 237, 1);
+    border-radius: 10px;
+}
+
+#msg{
+    position: absolute;
+    top: 232px;
+    left: 735px;
+    width: 457px;
+    height: 78px;
+    background-color: transparent;
+    font: normal normal 900 28px/40px Bauhaus Hv BT;
+    font-family: 'Fredoka One', cursive;
+    color: rgba(142, 83, 240);
+    /* visibility: hidden; */
+}
+
+#image{
+    position: absolute;
+    top: 345px;
+    left: 707px;
+    width: 536px;
+    height: 341px;
+    background: transparent url('whiteimg.png');
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.setTimeBlock{
+    position: absolute;
+    top: 149px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+}
+
+.inBlock{
+    position: absolute;
+    top: 163px;
+    left: 149px;
+    width: 517px;
+    height: 335px;
+    background-color: transparent;
+}
+
+#wakeUpImg{
+    position: absolute;
+    top: 169px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('wake_up.png') 0% 0% no-repeat padding-box;
+}
+
+#wake{
+    position: absolute;
+    top: 174px;
+    left: 204px;
+    width: 141px;
+    height: 23px;
+    background-color: transparent;
+    font: normal normal normal 18px/28px Manrope;
+    color: #3D087B;
+}
+
+#tSelect{
+    position: absolute;
+    top: 163px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#lunchh{
+    position: absolute;
+    top: 218px;
+    left: 167px;
+    width: 0px;
+    height: 33px;
+    border: 1px solid #C2C2C2;
+}
+
+#lunchImg{
+    position: absolute;
+    top: 266px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('lunch_time.png') 0% 0% no-repeat padding-box;
+}
+
+#lunchtime{
+    position: absolute;
+    top: 271px;
+    left: 204px;
+    width: 119px;
+    height: 23px;
+    background-color: transparent;
+    font: normal normal normal 18px/28px Manrope;
+    color: #3D087B;
+}
+
+#tSelect2{
+    position: absolute;
+    top: 260px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#napp{
+    position: absolute;
+    top: 315px;
+    left: 167px;
+    width: 0px;
+    height: 33px;
+    border: 1px solid #C2C2C2;
+}
+
+#napImg{
+    position: absolute;
+    top: 362px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('nap_time.png') 0% 0% no-repeat padding-box;
+}
+
+#naptime{
+    position: absolute;
+    top: 367px;
+    left: 204px;
+    width: 105px;
+    height: 23px;
+    font: normal normal normal 18px/28px Manrope;
+    color: #3D087B;
+    background-color: transparent;
+}
+#tSelect3{
+    position: absolute;
+    top: 356px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#nightt{
+    position: absolute;
+    top: 411px;
+    left: 167px;
+    width: 0px;
+    height: 33px;
+    border: 1px solid #C2C2C2;
+}
+
+#nightImg{
+    position: absolute;
+    top: 459px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('moonimg.png') 0% 0% no-repeat padding-box;
+}
+
+#nighttime{
+    position: absolute;
+    top: 464px;
+    left: 204px;
+    width: 117px;
+    height: 23px;
+    font: normal normal normal 18px/28px Manrope;
+    color: #3D087B;
+    background-color: transparent;
+}
+
+#tSelect4{
+    position: absolute;
+    top: 453px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.msg_type{
+    position: absolute;
+    top: 527px;
+    left: 124px;
+    width: 566px;
+    height: 77px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+}
+
+#gotit{
+    position: absolute;
+    top: 549px;
+    left: 149px;
+    width: 232px;
+    height: 34px;
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: 'Fredoka One', cursive;
+}
+
+#setButton{
+    position: absolute;
+    top: 624px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttonText{
+    position: absolute;
+    top: 627px;
+    left: 218px;
+    width: 111px;
+    height: 31px;
+    background-color: transparent;
+    font: normal normal 600 24px/38px Manrope;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+#settime{
+    position: absolute;
+    top: 615px;
+    left: 437px;
+    width: 253px;
+    height: 117px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+}
+
+#tList1{
+    position: absolute;
+    top: 625px;
+    left: 449px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    font: normal normal bold 14px/25px Manrope;
+    color: #F25CFE;
+    font-family: 'Lato', sans-serif;
+}
+
+#tList2{
+    position: absolute;
+    top: 650px;
+    left: 449px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    font: normal normal bold 14px/25px Manrope;
+    color: #F25CFE;
+    font-family: 'Lato', sans-serif;
+}
+
+#tList3{
+    position: absolute;
+    top: 674px;
+    left: 449px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    font: normal normal bold 14px/25px Manrope;
+    color: #F25CFE;
+    font-family: 'Lato', sans-serif;
+}
+
+#tList4{
+    position: absolute;
+    top: 700px;
+    left: 449px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    font: normal normal bold 14px/25px Manrope;
+    color: #F25CFE;
+    font-family: 'Lato', sans-serif;
+}
